@@ -1,0 +1,34 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training - maximize carbohydrate intake with proper pre/during/post-workout nutrition timing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers a full 24-hour period with at least 4 distinct meals/snacks",
+      "Includes specific pre-workout, during-workout, and post-workout nutrition recommendations with timing",
+      "Emphasizes high carbohydrate content appropriate for endurance athlete (approximately 8-10g per kg body weight daily)",
+      "Meal plan is compact and concise (single day format, minimal elaboration)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a professional endurance athlete (marathon runner) who requires high carbohydrate intake and specific timing around training sessions, including pre-workout, during-workout, and post-workout nutrition"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "85 kg",
+      "goal": "Muscle gain and strength improvement for weightlifting",
+      "restrictions": "Vegetarian, peanut allergy"
+    },
+    "solution_criteria": [
+      "Meal plan covers 1 full day with at least 4 meals/snacks",
+      "Protein distributed across meals (minimum 25g per meal) from vegetarian sources excluding peanuts",
+      "Total daily protein meets ~1.6-2.2g per kg body weight (~136-187g)",
+      "Includes timing considerations for pre/post-workout nutrition"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-based athlete (weightlifter) who needs high protein distribution across meals and specific micronutrient timing, with dietary restrictions (e.g., vegetarian or food allergies) that require alternative protein sources"
+  }
+]

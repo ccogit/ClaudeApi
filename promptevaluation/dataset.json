@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a CloudFormation template snippet for an S3 bucket with versioning enabled and public access blocked",
+    "format": "json",
+    "solution_criteria": "must include S3 bucket resource with VersioningConfiguration and PublicAccessBlockConfiguration properties, valid CloudFormation syntax"
+  },
+  {
+    "task": "Write a Python function that extracts the region and service name from an AWS ARN string",
+    "format": "python",
+    "solution_criteria": "must parse ARN format (arn:aws:service:region:account-id:resource), return region and service as a tuple or dictionary, handle invalid ARN inputs"
+  },
+  {
+    "task": "Create a regular expression pattern to validate AWS IAM role names according to AWS naming rules",
+    "format": "regex",
+    "solution_criteria": "must allow alphanumeric characters, hyphens, and underscores, enforce minimum length of 1 and maximum of 64 characters, not allow spaces or special characters"
+  }
+]

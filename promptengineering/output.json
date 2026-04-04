@@ -1,0 +1,44 @@
+[
+  {
+    "output": "# Marathon Training Nutrition Plan\n\n## Daily Calorie & Macro Targets\n- **Daily calories:** ~2,800-3,200 (depending on training volume)\n- **Carbs:** 55-60% (~385-480g) - prioritize for endurance\n- **Protein:** 15-20% (~105-160g)\n- **Fat:** 20-25% (~62-89g)\n\n---\n\n## Pre-Workout (2-3 hours before)\n- Oatmeal with banana and honey\n- Toast with peanut butter\n- Pasta with light sauce\n- *Goal: 200-300g carbs, moderate protein/fat*\n\n## During Workout (>90 minutes)\n- Sports drinks (6-8% carbs)\n- Energy gels (20-30g carbs each)\n- Bananas or sports bars\n- *Goal: 30-60g carbs/hour*\n\n## Post-Workout (within 30-60 minutes)\n- Chocolate milk, smoothie with fruit & yogurt\n- Rice + chicken + vegetables\n- Bagel with turkey\n- *Goal: 1-1.2g carbs per kg body weight + protein*\n\n---\n\n## Daily Staples\n**Carbs:** Oats, rice, pasta, bread, potatoes, fruits\n**Protein:** Chicken, fish, eggs, Greek yogurt, beans\n**Healthy fats:** Olive oil, nuts, avocado, fatty fish\n\n---\n\n**\ud83d\udca1 Key tip:** Increase carbs on high-mileage days; stay hydrated consistently.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training - maximize carbohydrate intake with proper pre/during/post-workout nutrition timing",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers a full 24-hour period with at least 4 distinct meals/snacks",
+        "Includes specific pre-workout, during-workout, and post-workout nutrition recommendations with timing",
+        "Emphasizes high carbohydrate content appropriate for endurance athlete (approximately 8-10g per kg body weight daily)",
+        "Meal plan is compact and concise (single day format, minimal elaboration)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a professional endurance athlete (marathon runner) who requires high carbohydrate intake and specific timing around training sessions, including pre-workout, during-workout, and post-workout nutrition"
+    },
+    "score": 3,
+    "reasoning": "The solution violates multiple mandatory requirements. While it provides daily caloric totals and macronutrient breakdowns, it lacks the essential component of 'meals with exact foods, portions, and timing.' The output is a framework/template rather than an actual meal plan. Additionally, it fails the secondary criterion of covering a full 24-hour period with at least 4 distinct meals/snacks - it only categorizes workout-related nutrition without specifying breakfast, lunch, dinner, and snacks with concrete details. The carbohydrate target is also insufficient for a marathon-training athlete at 68kg body weight. The solution reads as a nutrition guide rather than a completed meal plan."
+  },
+  {
+    "output": "# Nutrition Plan for Muscle Gain & Strength (Vegetarian, Peanut-Free)\n\n## Daily Calorie & Macro Target\n- **Calories**: ~2,800-3,000/day (slight surplus for muscle gain)\n- **Protein**: 130-150g/day (1.5-1.8g per kg bodyweight)\n- **Carbs**: 350-400g/day (fuel for lifting)\n- **Fat**: 75-90g/day (hormone support)\n\n## Best Protein Sources\n- Greek yogurt & cottage cheese\n- Eggs & egg whites\n- Protein powder (whey, plant-based blends)\n- Legumes: lentils, chickpeas, black beans\n- Tofu & tempeh\n- Milk & cheese\n\n## Sample Daily Eating Pattern\n\n**Breakfast**\n- Oatmeal with berries, honey, Greek yogurt\n\n**Snack**\n- Protein shake (whey + banana + oats)\n\n**Lunch**\n- Lentil pasta with vegetables & cheese\n\n**Pre-Workout**\n- Banana + rice cakes\n\n**Post-Workout**\n- Protein shake + fruit\n\n**Dinner**\n- Tofu/tempeh stir-fry, rice, vegetables\n\n**Evening Snack**\n- Cottage cheese or protein pudding\n\n## Key Priorities\n\u2713 Hit protein target daily  \n\u2713 Eat in slight calorie surplus  \n\u2713 Time carbs around workouts  \n\u2713 Stay consistent with training + nutrition\n\n**Consider**: Working with a sports dietitian for personalized meal planning.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "85 kg",
+        "goal": "Muscle gain and strength improvement for weightlifting",
+        "restrictions": "Vegetarian, peanut allergy"
+      },
+      "solution_criteria": [
+        "Meal plan covers 1 full day with at least 4 meals/snacks",
+        "Protein distributed across meals (minimum 25g per meal) from vegetarian sources excluding peanuts",
+        "Total daily protein meets ~1.6-2.2g per kg body weight (~136-187g)",
+        "Includes timing considerations for pre/post-workout nutrition"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength-based athlete (weightlifter) who needs high protein distribution across meals and specific micronutrient timing, with dietary restrictions (e.g., vegetarian or food allergies) that require alternative protein sources"
+    },
+    "score": 2,
+    "reasoning": "While the solution demonstrates solid nutritional knowledge and addresses the athlete's needs conceptually, it violates all three mandatory requirements. The task explicitly requires: (1) daily caloric total, (2) macronutrient breakdown, and (3) meals with exact foods, portions, and timing. The solution provides only ranges and generic meal descriptions without specific quantities, making it impossible to verify if the plan actually meets the secondary criteria (protein distribution, total protein intake verification). A proper response would include a complete sample day with specific portions (e.g., '200g Greek yogurt', '150g lentil pasta') and calculated totals showing the plan hits 2,800-3,000 calories and 130-150g protein."
+  }
+]
